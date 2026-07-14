@@ -9,7 +9,7 @@ let category = document.getElementById("category");
 let submit = document.getElementById("submit");
 let mood = 'create';
 let tmp;
-// get total
+// get totall
 function getTotal() {
   if (price.value != '') {
     let result = (+price.value + +taxes.value + +ads.value) - +discount.value;
