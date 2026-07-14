@@ -9,6 +9,7 @@ let category = document.getElementById("category");
 let submit = document.getElementById("submit");
 let mood = 'create';
 let tmp;
+
 // get totall
 function getTotal() {
   if (price.value != '') {
@@ -20,6 +21,7 @@ function getTotal() {
     total.style.background = "#a00d02";
   }
 }
+
 // Create Products
 let dataPro;
 if (localStorage.product != null) {
@@ -73,6 +75,7 @@ submit.onclick = function() {
   category.value = '';
   total.style.background = "#a00d02";
 }
+
 // Read
   function showData() {
     getTotal();
