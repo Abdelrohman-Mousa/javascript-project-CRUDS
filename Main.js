@@ -20,7 +20,7 @@ function getTotal() {
     total.style.background = "#a00d02";
   }
 }
-// Create Product
+// Create Products
 let dataPro;
 if (localStorage.product != null) {
   dataPro = JSON.parse(localStorage.product)
